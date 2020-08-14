@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.defaultInput {
+  @apply border border-2 border-gray-300 rounded;
+}
+
+.buttonDefault {
+  @apply bg-blue-500 text-white font-bold text-center py-1 px-2 rounded cursor-pointer;
+}
